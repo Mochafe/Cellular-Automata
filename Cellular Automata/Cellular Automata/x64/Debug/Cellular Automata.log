@@ -1,0 +1,3 @@
+﻿  Time.cpp
+D:\Code\C++\Cellular Automata\Cellular Automata\Time.cpp(11,36): warning C4244: 'return' : conversion de 'sf::Int64' en 'float', perte possible de données
+  Cellular Automata.vcxproj -> D:\Code\C++\Cellular Automata\x64\Debug\Cellular Automata.exe
