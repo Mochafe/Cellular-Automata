@@ -8,8 +8,7 @@ enum class CellType {
 
 struct Cell
 {
-	Cell(float pressure, CellType type) : type(type), pressure(pressure) {}
+	Cell() : type(CellType::Empty) {}
+	Cell(CellType type) : type(type) {}
 	CellType type;
-	float pressure;
-
 };

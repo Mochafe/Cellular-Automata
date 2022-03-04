@@ -1,15 +1,18 @@
 #pragma once
 #include <SFML/Graphics.hpp>
+#include "Time.h"
 
 
 class Tick
 {
 public:
-	Tick(int tick);
+	Tick();
+	Tick(int tick , Time &time);
 
-	void UpdateTick();
+	bool isTick();
 private:
-	sf::Clock clock;
-	int maxTick, tick;
+
+	Time time;
+	int maxTick;
 };
 

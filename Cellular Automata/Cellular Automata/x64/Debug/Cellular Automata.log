@@ -1,3 +1,45 @@
-﻿  Time.cpp
-D:\Code\C++\Cellular Automata\Cellular Automata\Time.cpp(11,36): warning C4244: 'return' : conversion de 'sf::Int64' en 'float', perte possible de données
+﻿  Grid.cpp
+D:\Code\C++\Cellular Automata\Cellular Automata\Grid.cpp(8,137): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+D:\Code\C++\Cellular Automata\Cellular Automata\Grid.cpp(30,89): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+D:\Code\C++\Cellular Automata\Cellular Automata\Grid.cpp(30,59): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+D:\Code\C++\Cellular Automata\Cellular Automata\Grid.cpp(47,53): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+D:\Code\C++\Cellular Automata\Cellular Automata\Grid.cpp(47,41): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+D:\Code\C++\Cellular Automata\Cellular Automata\Grid.cpp(60,55): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+D:\Code\C++\Cellular Automata\Cellular Automata\Grid.cpp(60,42): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+D:\Code\C++\Cellular Automata\Cellular Automata\Grid.cpp(73,53): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+D:\Code\C++\Cellular Automata\Cellular Automata\Grid.cpp(73,41): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+  Main.cpp
+  Génération de code en cours...
   Cellular Automata.vcxproj -> D:\Code\C++\Cellular Automata\x64\Debug\Cellular Automata.exe

@@ -6,12 +6,20 @@ class Time
 {
 public:
 
+	Time();
+
 	void CalculateDeltaTime();
 
-	float GetDeltaTime();
+	void UpdateTime();
 
+	sf::Time GetDeltaTime();
+	sf::Time GetTimeSinceStart();
+
+private:
+	sf::Clock timeSinceStartClock;
 	sf::Clock deltaTimeClock;
 
+	sf::Time timeSinceStart;
 	sf::Time deltaTime;
 
 };

@@ -1,9 +1,14 @@
 #include "Tick.h"
 
-Tick::Tick(int maxTick) : maxTick(maxTick) {}
+Tick::Tick() : maxTick(20){
+	time = Time();
+}
 
-void Tick::UpdateTick() {
+Tick::Tick(int maxTick, Time& time) : maxTick(maxTick), time(time) {}
 
-	
+
+bool Tick::isTick()
+{
+	return (time.GetTimeSinceStart().asMilliseconds() % 1000 / maxTick == 0) ? true : false;
 }
 

@@ -1,13 +1,22 @@
 #include "Time.h"
 
+Time::Time() { timeSinceStartClock.restart(); };
 
 void Time::CalculateDeltaTime()
 {
     deltaTime = deltaTimeClock.restart();
 }
 
-float Time::GetDeltaTime()
+void Time::UpdateTime() {
+    CalculateDeltaTime();
+}
+
+sf::Time Time::GetTimeSinceStart() {
+    return timeSinceStartClock.getElapsedTime();
+}
+
+sf::Time Time::GetDeltaTime()
 {
-    return deltaTime.asMicroseconds();
+    return deltaTimeClock.getElapsedTime();
 }
 
